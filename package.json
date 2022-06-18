@@ -1,0 +1,40 @@
+{
+  "version": "2.0.0-beta.48",
+  "name": "vuepress-plugin-baidu-seo-next",
+  "description": "Baidu SEO plugin for vuepress v2.x",
+  "main": "lib/node/index.js",
+  "types": "lib/node/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "clean": "rm -rf lib *.tsbuildinfo",
+    "build": "tsc -b tsconfig.build.json"
+  },
+  "license": "MIT",
+  "author": "rqh656418510",
+  "homepage": "https://github.com/rqh656418510/vuepress-plugin-baidu-seo-next",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rqh656418510/vuepress-plugin-baidu-seo-next.git"
+  },
+  "keywords": [
+    "vuepress-plugin-baidu-seo-next",
+    "vuepress2",
+    "plugin",
+    "baidu",
+    "tongji",
+    "seo"
+  ],
+  "dependencies": {
+    "@vuepress/client": "2.0.0-beta.48",
+    "@vuepress/core": "2.0.0-beta.48",
+    "@vuepress/utils": "2.0.0-beta.48",
+    "vue": "^3.2.33",
+    "vue-router": "^4.0.15"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  }
+}
