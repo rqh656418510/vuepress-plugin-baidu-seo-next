@@ -2,11 +2,14 @@ import { onMounted } from 'vue'
 import { RouterLink, useRouter } from 'vue-router'
 import type { BaiduSeoOptions } from "../../shared";
 
+declare global {
+  interface Window { _hmt: any; }
+}
+
 declare const __BAIDU_SEO_OPTIONS__: BaiduSeoOptions;
 const options = __BAIDU_SEO_OPTIONS__;
 const IGNORE_LOCAL = options.ignoreLocal;
 const HM = options.hm;
-const win: any = window;
 
 /**
  * baidu tongji
@@ -26,7 +29,7 @@ function initBaiduTongji() {
       element.remove();
     }
 
-    win._hmt = win._hmt || [];
+    window._hmt = window._hmt || [];
     const hm = document.createElement('script');
     hm.id = id;
     hm.src = 'https://hm.baidu.com/hm.js?' + HM;
@@ -46,7 +49,7 @@ function initBaiduTongji() {
         }, 1000);
       } else {
         loadedPages.add(to.fullPath);
-        win._hmt.push(['_trackPageview', to.fullPath]);
+        window._hmt.push(['_trackPageview', to.fullPath]);
       }
     });
   }
