@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "prepare": "npm run build",
-    "clean": "rm -rf lib *.tsbuildinfo",
+    "clean": "rimraf lib *.tsbuildinfo",
     "build": "tsc -b tsconfig.build.json"
   },
   "license": "MIT",
@@ -35,6 +35,7 @@
     "vue-router": "^4.0.15"
   },
   "devDependencies": {
+    "rimraf": "^3.0.2",
     "typescript": "^4.7.3"
   }
 }
