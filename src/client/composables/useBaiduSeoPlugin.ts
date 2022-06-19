@@ -42,10 +42,10 @@ function initBaiduTongji() {
     const loadedPages = new Set();
 
     router.afterEach((to) => {
-      // resolve duplicate requests
+      // resolve duplicate requests in a short time
       if (loadedPages.has(to.fullPath)) {
         setTimeout(() => {
-          loadedPages.clear();
+          loadedPages.delete(to.fullPath);
         }, 1000);
       } else {
         loadedPages.add(to.fullPath);
