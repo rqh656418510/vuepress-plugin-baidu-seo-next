@@ -1,6 +1,6 @@
 import { onMounted } from 'vue'
 import { RouterLink, useRouter } from 'vue-router'
-import type { BaiduSeoOptions } from "../../shared";
+import type { BaiduSeoOptions } from "../../shared/index.js";
 
 declare global {
   interface Window { _hmt: any; }
@@ -72,4 +72,5 @@ function tongjiPush() {
       window._hmt.push(['_trackPageview', window.location.href]);
     }
   }
+
 }

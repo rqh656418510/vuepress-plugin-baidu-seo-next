@@ -1,9 +1,10 @@
-import { info, error } from './utils'
-import { path } from "@vuepress/utils";
 import type { Plugin } from "@vuepress/core";
-import type { BaiduSeoOptions } from "../shared";
+import { path, getDirname } from "@vuepress/utils";
 
-export * from "../shared";
+import { info, error } from './utils.js'
+import type { BaiduSeoOptions } from "../shared/index.js";
+
+const __dirname = getDirname(import.meta.url);
 
 export const baiduSeoPlugin = (options: BaiduSeoOptions): Plugin =>
     (app) => {
@@ -23,5 +24,3 @@ export const baiduSeoPlugin = (options: BaiduSeoOptions): Plugin =>
             clientConfigFile: path.resolve(__dirname, '../client/config.js'),
         }
     };
-
-export default baiduSeoPlugin;

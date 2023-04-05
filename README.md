@@ -11,7 +11,7 @@ npm install -D vuepress-plugin-baidu-seo-next
 ## Usage
 
 ``` js
-const { baiduSeoPlugin } = require('vuepress-plugin-baidu-seo-next')
+import { baiduSeoPlugin } from 'vuepress-plugin-baidu-seo-next'
 
 module.exports = {
   plugins: [

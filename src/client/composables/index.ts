@@ -1,1 +1,1 @@
-export * from './useBaiduSeoPlugin'
+export * from './setupPlugin.js'
