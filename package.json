@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0-beta.61.1",
+  "version": "2.0.0-beta.62.1",
   "name": "vuepress-plugin-baidu-seo-next",
   "description": "Baidu SEO plugin for vuepress v2.x",
   "type": "module",
