@@ -6,7 +6,7 @@
 
 ### 安装插件
 
-> 以 SEO 插件版本号 `2.0.0-beta.66.x` 举例，其中的 `2.0.0-beta.66` 代表该 SEO 插件所兼容的 VuePress 2 版本，而 `x` 则代表 SEO 插件自身的修订版本号。若 VuePress 2 与 SEO 插件的版本不兼容，很可能会导致编译出错或者 SEO 插件无法生效。
+> 以 SEO 插件版本号 `2.0.0-beta.68.x` 举例，其中的 `2.0.0-beta.68` 代表该 SEO 插件所兼容的 VuePress 2 版本，而 `x` 则代表 SEO 插件自身的修订版本号。若 VuePress 2 与 SEO 插件的版本不兼容，很可能会导致编译出错或者 SEO 插件无法生效。
 
 - 查看插件的所有版本
 
@@ -22,7 +22,7 @@ $ npm view vuepress-plugin-baidu-seo-next versions
 $ npm install -D vuepress-plugin-baidu-seo-next
 
 # # 安装指定版本（推荐）
-$ npm install -D vuepress-plugin-baidu-seo-next@2.0.0-beta.67.1
+$ npm install -D vuepress-plugin-baidu-seo-next@2.0.0-beta.68.1
 ```
 
 ### 配置插件
