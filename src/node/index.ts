@@ -1,7 +1,6 @@
+import { info, error } from './utils.js'
 import type { Plugin } from "@vuepress/core";
 import { path, getDirname } from "@vuepress/utils";
-
-import { info, error } from './utils.js'
 import type { BaiduSeoOptions } from "../shared/index.js";
 
 const __dirname = getDirname(import.meta.url);

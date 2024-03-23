@@ -1,5 +1,5 @@
 import { onMounted } from 'vue'
-import { RouterLink, useRouter } from 'vue-router'
+import { useRouter } from '@vuepress/client'
 import type { BaiduSeoOptions } from "../../shared/index.js";
 
 declare global {
