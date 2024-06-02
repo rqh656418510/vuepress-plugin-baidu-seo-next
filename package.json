@@ -30,9 +30,9 @@
     "seo"
   ],
   "dependencies": {
-    "@vuepress/core": "2.0.0-rc.11",
-    "@vuepress/client": "2.0.0-rc.11",
-    "@vuepress/utils": "2.0.0-rc.11",
+    "@vuepress/core": "2.0.0-rc.12",
+    "@vuepress/client": "2.0.0-rc.12",
+    "@vuepress/utils": "2.0.0-rc.12",
     "vue-router": "4.3.2",
     "vue": "3.4.27",
     "chalk": "4.1.2"
