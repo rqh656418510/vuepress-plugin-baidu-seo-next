@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-baidu-seo-next",
-  "version": "2.0.0-rc.15.1",
+  "version": "2.0.0-rc.17.1",
   "description": "Baidu SEO plugin for vuepress v2.x",
   "type": "module",
   "main": "lib/node/index.js",
@@ -30,15 +30,15 @@
     "seo"
   ],
   "dependencies": {
-    "@vuepress/core": "2.0.0-rc.15",
-    "@vuepress/client": "2.0.0-rc.15",
-    "@vuepress/utils": "2.0.0-rc.15",
-    "vue-router": "4.4.0",
-    "vue": "3.5.0",
+    "@vuepress/core": "2.0.0-rc.17",
+    "@vuepress/client": "2.0.0-rc.17",
+    "@vuepress/utils": "2.0.0-rc.17",
+    "vue-router": "4.4.3",
+    "vue": "3.5.9",
     "chalk": "4.1.2"
   },
   "devDependencies": {
     "rimraf": "5.0.5",
-    "typescript": "5.5.4"
+    "typescript": "5.6.3"
   }
 }
